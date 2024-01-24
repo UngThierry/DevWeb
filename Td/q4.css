@@ -1,0 +1,41 @@
+h1{
+    margin:auto;
+    color:blue;
+}
+
+#cadre{
+    border: 3px solid black;
+    margin:auto;
+    width: max-content;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#noms{
+    display: flex;
+    flex-direction: row;
+}
+
+#noms div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    width: auto;
+}
+
+#infos div{
+    margin-top: 1em;
+}
+
+#infos label{
+    float: left;
+    display: block;
+    width: 100px;
+    text-align: left;
+}
+
+#bouton{
+    margin-top: 2em;
+}

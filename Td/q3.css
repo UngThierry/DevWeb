@@ -1,0 +1,41 @@
+h1{
+    margin:auto;
+    color:blue;
+}
+
+#cadre{
+    border: 3px solid black;
+    margin:auto;
+    width: max-content;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+label{
+    float: left;
+    margin-top: 1em;
+}
+
+input{
+    float: right;
+    margin-top: 1em;
+}
+
+#bouton{
+    display: flex;
+    margin-top: 5em;
+}
+
+button{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: min-content;
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4em;
+}
+
